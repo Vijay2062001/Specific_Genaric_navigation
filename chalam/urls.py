@@ -5,5 +5,6 @@ from chalam.views import *
 app_name='chalam'
 
 urlpatterns=[
-    path('mam/',mam,name='mam')
+    path('mam/',mam,name='mam'),
+    path('sravani/',sravani,name='sravani'),
 ]
